@@ -109,3 +109,79 @@ p::first-letter {
     font-size: 200%;
     color: green;
 }
+.container {
+    position: absolute;
+    padding: 20px;
+
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    opacity: .7;
+    background-color: #555;
+    color: white;
+    margin-bottom: 24px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 195px;
+    margin-left: 0.2vw;
+  }
+  .container1 {
+    position: absolute;
+    padding: 20px;
+
+  }
+  
+  .text-block1 {
+    position: absolute;
+    bottom: 20px;
+    opacity: .7;
+    background-color: #555;
+    color: white;
+    margin-bottom: 24px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 195px;
+    margin-left: 24.5vw;
+  }
+  .container2 {
+    position: absolute;
+    padding: 20px;
+
+  }
+  
+  .text-block2 {
+    position: absolute;
+    bottom: 20px;
+    opacity: .7;
+    background-color: #555;
+    color: white;
+    margin-bottom: 24px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 195px;
+    margin-left: 48.8vw;
+  }
+  .container3 {
+    position: absolute;
+    padding: 20px;
+
+  }
+  
+  .text-block3 {
+    position: absolute;
+    bottom: 20px;
+    opacity: .7;
+    background-color: #555;
+    color: white;
+    margin-bottom: 24px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 195px;
+    margin-left: 73.2vw;
+  }

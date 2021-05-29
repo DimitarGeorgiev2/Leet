@@ -7,6 +7,10 @@
 body {
     background: #182815;
     overflow-y: hidden;
+    background-image: url(videos/bgn.gif);
+    background-size: cover;
+    width: 100;
+    height: 100vh;
 }
 
 .wrapper {
@@ -89,11 +93,12 @@ nav h2 {
     color: white;
 }
 
-#storm {
+
+/*#storm {
     margin-top: -4%;
     width: 100%;
     height: 100vh;
-}
+}*/
 
 .text {
     margin-top: 0%;
@@ -109,100 +114,114 @@ p::first-letter {
     font-size: 200%;
     color: green;
 }
+
 .container0 {
     position: absolute;
-    padding: 20px;
+    padding: 1% 0.97% 15% 1%;
+}
 
-  }
-  
-  .text-block {
+.text-block0 {
     position: absolute;
-    bottom: 20px;
+    bottom: -57vh;
     opacity: .7;
     background-color: #555;
     color: white;
-    padding: 240% 472% 270% 472%; 
-    margin-left: -1vw;
-    bottom: 108%;
-  }
-  .container1 {
-    position: absolute;
-    padding: 20px;
+    padding: 240% 472% 190% 472%;
+    margin-left: -0.90vw;
+}
 
-  }
-  
-  .text-block1 {
+.container1 {
     position: absolute;
-    bottom: 20px;
+    padding: 1% 0.97% 15% 1%;
+}
+
+.text-block1 {
+    position: absolute;
+    bottom: -57vh;
     opacity: .7;
     background-color: #555;
     color: white;
-    padding: 240% 472% 270% 472%; 
-    margin-left: 23.9vw;
-    bottom: 108%;
-  }
-  .container2 {
-    position: absolute;
-    padding: 20px;
+    padding: 240% 472% 190% 472%;
+    margin-left: 24.3vw;
+}
 
-  }
-  
-  .text-block2 {
+.container2 {
     position: absolute;
+    padding: 1% 10% 15% 1%;
+}
+
+.text-block2 {
+    position: absolute;
+    bottom: .5vh;
     opacity: .7;
     background-color: #555;
     color: white;
-    padding: 240% 472% 270% 472%; 
-    margin-left: 27.9vh;
-    bottom: -170%;
-  }
-  .container3 {
-    position: absolute;
-    padding: 20px;
+    padding: 95% 357% 134% 300%;
+    margin-left: 32.8vh;
+}
 
-  }
-  
-  .text-block3 {
+.container3 {
     position: absolute;
-    bottom: 20px;
+    padding: 1% 0.97% 15% 1%;
+}
+
+.text-block3 {
+    position: absolute;
+    bottom: .4vh;
     opacity: .7;
     background-color: #555;
     color: white;
-    padding: 240% 472% 270% 472%; 
-    margin-left: 39.1vw;
-    bottom: -170%;
-  }
-  
-  .buttons {
+    padding: 1010% 1900% 720% 1760%;
+    margin-left: 40.4vw;
+}
+
+.buttons {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     width: 80%;
     height: 80%;
+    /*   padding: 2em 0em; */
+}
 
-  /*   padding: 2em 0em; */
-  }
-  
-  .container {
+.buttonPosition {
     text-align: center;
     background-color: #555;
     padding-top: 10%;
+    padding-bottom: -50%;
+    padding-left: 0%;
     width: 100px;
     height: 92px;
-  }
-  
+}
 
-  
-  p {
+.buttonPositionSecond {
+    text-align: center;
+    background-color: #555;
+    padding-top: 52%;
+    padding-left: 18%;
+    width: 100px;
+    height: 92px;
+}
+
+.buttonPositionThird {
+    text-align: center;
+    background-color: #555;
+    padding-top: 10%;
+    padding-bottom: -50%;
+    padding-left: 15%;
+    width: 100px;
+    height: 92px;
+}
+
+p {
     text-align: left;
     color: #444;
     letter-spacing: 0.05em;
     font-size: 0.8em
-  }
-  
-  
-  .btn {
+}
+
+.btn {
     letter-spacing: 0.1em;
     cursor: pointer;
     font-size: 14px;
@@ -212,51 +231,50 @@ p::first-letter {
     text-decoration: none;
     text-transform: uppercase;
     width: 100%;
-  }
-  .btn:hover {
+}
+
+.btn:hover {
     text-decoration: none;
-  }
-  
-  .effect04 {
+}
+
+.effect04 {
     --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
     display: var(--uismLinkDisplay);
     color: #000;
-    outline: solid  2px #000;
+    outline: solid 2px #000;
     position: relative;
     transition-duration: 0.4s;
     overflow: hidden;
-  }
-  
-  .effect04::before,
-  .effect04 span{
-      margin: 0 auto;
-      transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-      transition-duration: 0.4s;
-  }
-  
-  .effect04:hover{
-  
+}
+
+.effect04::before,
+.effect04 span {
+    margin: 0 auto;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    transition-duration: 0.4s;
+}
+
+.effect04:hover {
     background-color: #000;
-  }
-  
-  .effect04:hover span{
-    -webkit-transform: translateY(-420%) scale(-0.1,20);
-            transform: translateY(-420%) scale(-0.1,20);
-  }
-  
-  .effect04::before{
+}
+
+.effect04:hover span {
+    -webkit-transform: translateY(-420%) scale(-0.1, 20);
+    transform: translateY(-420%) scale(-0.1, 20);
+}
+
+.effect04::before {
     content: attr(data-sm-link-text);
-      color: #FFF;
+    color: #FFF;
     position: absolute;
     left: 0;
     right: 0;
-    -webkit-transform: translateY(500%) scale(-0.1,20);
-            transform: translateY(500%) scale(-0.1,20);
-  }
-  
-  .effect04:hover::before{
+    -webkit-transform: translateY(500%) scale(-0.1, 20);
+    transform: translateY(500%) scale(-0.1, 20);
+}
+
+.effect04:hover::before {
     letter-spacing: 0.05em;
-    -webkit-transform: translateY(0) scale(1,1);
-            transform: translateY(0) scale(1,1);
-  }
-  
+    -webkit-transform: translateY(0) scale(1, 1);
+    transform: translateY(0) scale(1, 1);
+}

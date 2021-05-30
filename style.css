@@ -325,6 +325,9 @@ p {
     font-family: 'Permanent Marker';
 }
 .container {
+    text-align: center;
+    margin-left: 25%;
+    width:50%;
     animation-name: test;
     animation-duration: 3s;
     animation-direction: alternate;

@@ -329,7 +329,7 @@ p {
     margin-left: 25%;
     width:50%;
     animation-name: test;
-    animation-duration: 3s;
+    animation-duration: 4.1s;
     animation-direction: alternate;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
@@ -340,13 +340,35 @@ p {
         transform: translateY(600px);
     }
     to {
-        transform: translateY(0px);
+        transform: translateY(30px);
     }
 }
+
+#appear{
+    animation-name: appearance;
+    animation-duration: 3.9s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes appearance {
+    from {
+        transform: translateY(600px);
+    }
+    to {
+        transform: translateY(-450px);
+    }
+}
+
 .fade-in-image {
     animation: fadeIn 5s;
-
   }
+
+.fade-in-cards{
+    animation: fadeIn 4s;
+}
+
   @keyframes fadeIn {
     0% {opacity:0;}
     20% {opacity: .2;}
@@ -355,6 +377,7 @@ p {
     80% {opacity: .8;}
     100% {opacity:1;}
   }
+
   .container3 {
       display: flex;
       justify-content: center;

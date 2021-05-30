@@ -318,6 +318,7 @@ p {
     text-align: center;
     font-family: 'Pattaya', sans-serif;
     font-size: 500%;
+    z-index:-10;
 }
 .bigtext {
     font-family: 'Permanent Marker';
@@ -338,9 +339,27 @@ p {
         transform: translateY(600px);
     }
     to {
-        transform: translateY(0px);
+        transform: translateY(100px);
     }
 }
+
+#appear{
+    animation-name: appearance;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes appearance {
+    from {
+        transform: translateY(600px);
+    }
+    to {
+        transform: translateY(-400px);
+    }
+}
+
 .fade-in-image {
     animation: fadeIn 5s;
 

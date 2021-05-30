@@ -5,21 +5,19 @@
 }
 
 body {
-    overflow-y: hidden;
-    overflow-x: auto;
-    background: #e8ebedee;
-    scrollbar-color: blue;
+    background: #111;
+    background-size: cover;
+    width: 100;
+    height: 100vh;
 }
 
 .wrapper {
     width: 100%;
-    height: 8vh;
+    height: 7.5vh;
 }
 
 nav {
-    background: #006400;
-    opacity: 0.7;
-    font-size: 20px;
+    opacity: .45;
 }
 
 nav:after {
@@ -64,10 +62,10 @@ nav h2 {
 .dropdown {
     position: absolute;
     display: none;
-    top: 64px;
-    left: 0px;
-    width: 164px;
-    background: #006400;
+    top: 57px;
+    left: -1px;
+    width: 140px;
+    background: #111;
 }
 
 .dropdown li {
@@ -83,20 +81,27 @@ nav h2 {
 .dropdown-2 {
     position: absolute;
     display: none;
-    top: -3px;
-    left: 163px;
-    width: 170px;
-    background: #006400;
+    top: 0px;
+    left: 138px;
+    width: 150px;
+    background: #111;
 }
 
 .temporary {
     color: white;
 }
 
+
+/*#storm {
+    margin-top: -4%;
+    width: 100%;
+    height: 100vh;
+}*/
+
 .text {
-    margin-top: 495px;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-top: 0%;
+    margin-left: 3.8%;
+    margin-right: 3.8%;
 }
 
 p {
@@ -104,27 +109,40 @@ p {
 }
 
 p::first-letter {
-    font-size: 180%;
+    font-size: 200%;
     color: green;
 }
 
 .rectangle {
-    width: 100px;
-    height: 200px;
-    background-color: red;
+    width: 3vw;
+    height: 2vw;
+    background-color: lightblue;
     position: relative;
-    margin-left: 180px;
-    margin-top: 90px;
+    margin-left: 12vw;
+    margin-top: 11.7vw;
     animation-duration: 10s;
     animation-fill-mode: forwards;
     animation-name: test;
 }
 
+
+#tap{
+    position: absolute;
+    margin-left: -1%;
+    z-index: 10
+}
+
+footer{
+    color:lightblue;
+    height: 5vh;
+    width: 100%;
+}
+
 @keyframes test {
     from {
-        transform: translateY(100px)
+        transform: translateY(1vh);
     }
     to {
-        transform: translateY(900px)
+        transform: translateY(70vh) scale(1, 32);
     }
 }

@@ -39,11 +39,11 @@ nav h2 {
     color: #fff;
     float: left;
     padding: 15px;
-    margin-left: 150px;
+    margin-left: 7.8125vw;
 }
 
 .links {
-    margin-right: 150px;
+    margin-right: 7.8125vw;
     float: right;
 }
 
@@ -71,9 +71,9 @@ nav h2 {
 .dropdown {
     position: absolute;
     display: none;
-    top: 57px;
-    left: -1px;
-    width: 140px;
+    top: 5.88vh;
+    left: -0.052vw;
+    width: 7.29vw;
     background: #111;
 }
 
@@ -90,9 +90,9 @@ nav h2 {
 .dropdown-2 {
     position: absolute;
     display: none;
-    top: 0px;
-    left: 138px;
-    width: 150px;
+    top: 0vh;
+    left: 7.18vw;
+    width: 7.81vw;
     background: #111;
 }
 
@@ -170,7 +170,7 @@ ol {
   font: 15px 'Merriweather Sans', 'lucida sans', sans-serif;
   padding: 0;
   text-shadow: 0 1px 0 rgba(255,255,255,.5);
-  width: 300px;
+  width: 15.625vw;
   margin: 0 auto;
   margin-left: 10vw;
   margin-top: -59.5vh;
@@ -196,7 +196,6 @@ ol ol {
 
 .rounded-list a:hover:before{
     transform: rotate(360deg);
-    -webkit-transform:rotate(360deg);
 }
 
 .rounded-list a:before{

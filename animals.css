@@ -1,217 +1,85 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-
-body {
-    overflow-y: hidden;
-    background-image: url(img/img6.jpg);
-    background-size: cover;
-    width: 100;
-    height: 100vh;
-}
-
-body {
-    background-color: #100e17;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
- 
-  
-.wrapper {
-    width: 100%;
-    height: 7.5vh;
-}
-
-nav {
-    opacity: .45;
-}
-
-nav:after {
-    display: block;
-    content: '';
-    clear: both;
-}
-
-nav h2 {
-    color: #fff;
-    float: left;
-    padding: 15px;
-    margin-left: 7.8125vw;
-}
-
-.links {
-    margin-right: 7.8125vw;
-    float: right;
-}
-
-.links li {
-    display: inline-block;
-    list-style: none;
-    position: relative;
-}
-
-.links li a {
-    display: inline-block;
-    color: #fff;
-    padding: 20px;
-    text-decoration: none;
-}
-
-.links li:hover {
-    background: #555;
-}
-
-.links li:hover .dropdown {
-    display: block;
-}
-
-.dropdown {
-    position: absolute;
-    display: none;
-    top: 5.88vh;
-    left: -0.052vw;
-    width: 7.29vw;
-    background: #111;
-}
-
-.dropdown li {
-    border: 2px solid #222;
-    display: block;
-    color: #fff;
-}
-
-.dropdown-link:hover .dropdown-2 {
-    display: block;
-}
-
-.dropdown-2 {
-    position: absolute;
-    display: none;
-    top: 0vh;
-    left: 7.18vw;
-    width: 7.81vw;
-    background: #111;
-}
-
-.temporary {
-    color: white;
-}
-.squaretext {
-    background-color: white;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    opacity: .7;
-    height: 85%;
-    border-radius: 2vw;
-    z-index: -10;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About</title>
+  <link rel="stylesheet" href="animals.css">
+  <script src="https://kit.fontawesome.com/3b93918a02.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class = "wrapper">
+        <nav>
+          <h2 class = "bigtext"><i class="fas fa-cannabis"> Leet</i></h2>
+          <ul class = "links">
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="about.html">За нас</a></li>
+            <li><a href="info.html">Информация</a>
+              <ul class = "dropdown">
+                <li><a href="environment.html">Зелени площи</a></li>
+                <li><a href="seas.html">Води</a></li>
+                <li class = "dropdown-link"><a href="">Незаконни дейности</a>
+                  <ul class = "dropdown-2">
+                    <li><a href="illegallogging.html">Незаконна сеч</a></li>
+                    <li><a href="buildings.html">Строежи</a></li>
+                    <li><a href="fires.html">Палежи</a></li>
+                    <li><a href="pollution.html">Замърсявания</a></li>
+                  </ul>
+                </li>
+                <li><a href="animals.html">Животни</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Контакти</a></li>
+          </ul>
+        </nav>
+    </div>
     
-}
-.sqtext {
-    word-wrap: break-word;
-    width: 15vw;
-    text-align: justify;
-    margin-left: 30vw;
-    z-index: -10;
-}
-.frtext {
-    margin-left: 30vw;
-    margin-top: -5vw;
-}
-img {
-    width: 30vh;
-    margin-left: 47vw;
-    border-radius: 1vw;
-    margin-top: -10vw;
-}
-.sqtext1 {
-    margin-left: 30vw;
-    z-index: -10;
-}
-.sqtext2 {
-    margin-left: 30vw;
-    width: 15vw;
-    text-align: justify;
-    word-wrap: break-word;
-    z-index: -10;
-}
-.sqtext3 {
-    margin-left: 30vw;
-    width: 34vw;
-    text-align: justify;
-    word-wrap: break-word;
-    z-index: -10;
-    margin-top: -10vh;
+    <div class = "squaretext">
+      
+    
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <h1 class = "frtext">Животните</h1>
+      <br>
+      <div class="sqtext">
+        
+      <p>Загубата на местообитания, изменението на климата и липсата на биологично разнообразие могат да направят екосистемите нездравословни, излагайки дивата природа на по-голям риск от болести. Всеки ден страничните продукти от нашето ежедневие си проправят път през въздуха и водата в естествената среда и стават замърсители. 
+      </p>
+      
+    </div>
+    <img src="img/img7.jpg" alt="">
+    <div class="sqtext1">
+      <p>Подобно на хората, животните или умират поради събития, или от нещо, което го убива, или от болест, или от старост. </p>
+    </div>
+    <div class="sqtext2">
+      <p>
+        
+        Подобно на хората, телата им се изваждат от мястото, където са намерени, или заровени, или изгорени, или в противен случай, ако останат необезпокоявани (по-малко вероятно при хората), те изгниват в земята.</p>
+        <img class = "img4" src="img/img9.jpg" alt="">
+        
+    </div>
+    
+    <br>
+    <div class="sqtext3">
+      <img class = "img3" src="img/img8.jpg" alt="">
+      <p>Kогато даден вид стане застрашен, това е знак, че екосистемата бавно се разпада. Всеки вид, който е загубен, предизвиква загуба на други видове в своята екосистема. Хората зависят от здравите екосистеми, за да пречистят околната среда. В българия има около 450 вида застрашени животни.
+      </p>
+      <br>
+   
 
-}
-.img3 {
-    margin-top: 0vh;
-    margin-left: 0vw;
-}
-.sqtext4 {
-    width: 18vw;
-    text-align: justify;
-    word-wrap: break-word;
-    margin-left: 46vw;
-    margin-top: -15vh;
-    z-index: -10;
-}
-.img4 {
-    margin-top:-12vh;
-    margin-left:17vw;
-}
-@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
-ol {
-  counter-reset: li;
-  list-style: none;
-  *list-style: decimal; /* Keep using default numbering for IE6/7 */
-  font: 15px 'Merriweather Sans', 'lucida sans', sans-serif;
-  padding: 0;
-  text-shadow: 0 1px 0 rgba(255,255,255,.5);
-  width: 15.625vw;
-  margin: 0 auto;
-  margin-left: 10vw;
-  margin-top: -59.5vh;
-}
-ol ol {
-  margin-left: 2em;
-}
-.rounded-list a {
-  position: relative;
-  display: block;
-  padding: .4em .4em .4em 2em;
-  *padding: .4em;
-  margin: .5em 0;
-    background: #ddd;
-  color: #444;
-    text-decoration: none;
-  border-radius: .3em;
-    transition: all .5s ease-out; 
-}
-.rounded-list a:hover{
-  background: #eee;
-}
+    </div>
+    <div class="sqtext4">
+      <p>Всяка година биват убивани около 150 милиарда животни.</p>
+    </div>
+    
+    <ol class="rounded-list">
+      <li><a href="https://bestfriends.org/" class="btn effect04" data-sm-link-text="Натисни" target="_blank"><span>Pet Shelter</span></a>
+        <br>
+        <li><a href="https://www.seattleaquarium.org/blog/you-can-help-prevent-plastic-harming-marine-wildlife" class="btn effect04" data-sm-link-text="Натисни" target="_blank"><span>Save wildlife</span></a>
+        <br>
+        <li><a href="https://awionline.org/content/what-you-can-do-wildlife" class="btn effect04" data-sm-link-text="Натисни" target="_blank"><span>What you can do</span></a>                        
+  </ol>
 
-.rounded-list a:hover:before{
-    transform: rotate(360deg);
-}
+    </div>
+    
+    
 
-.rounded-list a:before{
-  content: counter(li);
-  counter-increment: li;
-  position: absolute; 
-  left: -1.3em;
-  top: 50%;
-  margin-top: -1.3em;
-  background: #a7ad80;
-  height: 2em;
-  width: 2em;
-  line-height: 2em;
-  border: .3em solid #fff;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 2em;
-  transition: all .3s ease-out;
-}
+</body>
+</html>

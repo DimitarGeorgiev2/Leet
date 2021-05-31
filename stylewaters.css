@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+}
+
+body {
+    background: #111;
+    background-size: cover;
+    width: 100;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+    height: 7.5vh;
+}
+
+nav {
+    opacity: .45;
+}
+
+nav:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+nav h2 {
+    color: #fff;
+    float: left;
+    padding: 15px;
+    margin-left: 150px;
+}
+
+.links {
+    margin-right: 150px;
+    float: right;
+}
+
+.links li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+.links li a {
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.links li:hover {
+    background: #555;
+}
+
+.links li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+    top: 57px;
+    left: -1px;
+    width: 140px;
+    background: #111;
+}
+
+.dropdown li {
+    border: 2px solid #222;
+    display: block;
+    color: #fff;
+}
+
+.dropdown-link:hover .dropdown-2 {
+    display: block;
+}
+
+.dropdown-2 {
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 138px;
+    width: 150px;
+    background: #111;
+}
+
+.temporary {
+    color: white;
+}
+
+
+/*#storm {
+    margin-top: -4%;
+    width: 100%;
+    height: 100vh;
+}*/
+
+.text {
+    margin-top: 0%;
+    margin-left: 3.8%;
+    margin-right: 3.8%;
+}
+
+p {
+    font-size: 115%;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: green;
+}
+
+.rectangle {
+    width: 3vw;
+    height: 2vw;
+    background-color: lightblue;
+    position: relative;
+    margin-left: 12vw;
+    margin-top: 11.7vw;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-name: test;
+}
+
+
+#tap{
+    position: absolute;
+    margin-left: -1%;
+    z-index: 10
+}
+
+footer{
+    color:lightblue;
+    height: 5vh;
+    width: 100%;
+}
+
+@keyframes test {
+    from {
+        transform: translateY(1vh);
+    }
+    to {
+        transform: translateY(70vh) scale(1, 32);
+    }
+}

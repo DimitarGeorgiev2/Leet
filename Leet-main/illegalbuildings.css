@@ -1,25 +1,24 @@
+/*---------FONTS & IMPORTS--------*/
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+
+/*--------------MARGIN & PADDING RESET--------------*/
+
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+    font-family: arial;
 }
 
 body {
-    overflow-y: hidden;
     background-image: url(img/img14.jpg);
     background-size: cover;
     width: 100;
     height: 100vh;
 }
 
-body {
-    background-color: #100e17;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
- 
-  
+/*---------NAVIGATION, MENU & DROPDOWN MENU + EFFECTS--------*/
+
 .wrapper {
     width: 100%;
     height: 7.5vh;
@@ -96,84 +95,97 @@ nav h2 {
     background: #111;
 }
 
-.temporary {
-    color: white;
+/*---------MAIN PART (TEXT EFFECTS)--------*/
+
+.text {
+    margin-top: 0%;
+    margin-left: 3.8%;
+    margin-right: 3.8%;
 }
+
+p {
+    font-size: 115%;
+}
+
+p::first-letter {
+    font-size: 160%;
+    color: forestgreen;
+}
+
+/*---------PARAGRAPHS & CORRESPONDING IMAGES --------*/
+
+
 .squaretext {
     background-color: white;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 3vw;
+    margin-right: 24vw;
     opacity: .7;
-    height: 85%;
+    height: 82%;
     border-radius: 2vw;
     z-index: -10;
-    
 }
 .sqtext {
     word-wrap: break-word;
-    width: 15vw;
+    width: 35vw;
     text-align: justify;
-    margin-left: 30vw;
+    margin-left: 20vw;
     z-index: -10;
 }
 .frtext {
-    margin-left: 30vw;
-    margin-top: -5vw;
+    margin-left: 20vw;
+    margin-top: -7vw;
 }
 img {
     width: 30vh;
-    margin-left: 47vw;
+    margin-left: 36vw;
     border-radius: 1vw;
     margin-top: -10vw;
 }
 .sqtext1 {
-    margin-left: 30vw;
+    margin-left: 0vw;
     z-index: -10;
 }
 .sqtext2 {
-    margin-left: 30vw;
-    width: 15vw;
+    margin-left: 0vw;
+    width: 45vw;
     text-align: justify;
     word-wrap: break-word;
     z-index: -10;
 }
 .sqtext3 {
-    margin-left: 30vw;
-    width: 34vw;
+    margin-left: zvw;
+    width: 50vw;
     text-align: justify;
     word-wrap: break-word;
     z-index: -10;
-    margin-top: -10vh;
 
 }
 .img3 {
-    margin-top: 5vh;
+    margin-top: 4vh;
     margin-left: 0vw;
 }
 .sqtext4 {
-    width: 18vw;
+    width: 33vw;
     text-align: justify;
     word-wrap: break-word;
-    margin-left: 46vw;
-    margin-top: -20vh;
+    margin-left: 16vw;
+    margin-top: -16vh;
     z-index: -10;
 }
-.img4 {
-    margin-top:-12vh;
-    margin-left:17vw;
-}
-@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+
+/*---------OTHER LINKS (MENU) + EFFECTS--------*/
+
 ol {
   counter-reset: li;
   list-style: none;
-  *list-style: decimal; /* Keep using default numbering for IE6/7 */
+  *list-style: decimal;
   font: 15px 'Merriweather Sans', 'lucida sans', sans-serif;
   padding: 0;
   text-shadow: 0 1px 0 rgba(255,255,255,.5);
-  width: 300px;
+  width: 18.75em;
   margin: 0 auto;
-  margin-left: 10vw;
-  margin-top: -65.5vh;
+  margin-left: 6.5vw;
+  margin-top: -74.5vh;
 }
 ol ol {
   margin-left: 2em;
@@ -216,13 +228,88 @@ ol ol {
   border-radius: 2em;
   transition: all .3s ease-out;
 }
-.flower {
-    margin-top: 5vh;
-    margin-left: 13vw;
-    z-index: 10;
+
+/*--------ASIDE-------*/
+
+.additional {
+    background-color: white;
+    margin-left: 78vw;
+    margin-right: 24vw;
+    margin-top: -20vh;
+    opacity: .7;
+    height: 35%;
+    width: 20%;
+    border-radius: 2vw;
+    z-index: -10;
 }
-.tree {
-    height: 50vh;
-    width: 30vw;
-    margin-left: 38vw;
+
+.forestVector{
+    margin-left: 2.7vw;
+    margin-top: -5vh;
+    opacity: 1;
+}
+
+/*---------CONTACT US FORM--------*/
+
+.form{
+    width: 16vw;
+    height:35vh;
+    background:#e0e0e0;
+    border-radius:8px;
+    margin-left:5%;
+    margin-top:3.5%;
+    padding:2%;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+}
+
+h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#78788c;
+    border-bottom:3px solid #78788c;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+
+input:focus{
+    border-bottom:2px solid #78788c;
+}
+
+.name, .email, .message p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a;
+}
+
+.send {
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s
+}
+
+button:hover{
+    background:#78788c;
+    color:#fff
 }

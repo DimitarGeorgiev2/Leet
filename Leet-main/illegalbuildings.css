@@ -1,0 +1,228 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: hidden;
+    background-image: url(img/img14.jpg);
+    background-size: cover;
+    width: 100;
+    height: 100vh;
+}
+
+body {
+    background-color: #100e17;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+ 
+  
+.wrapper {
+    width: 100%;
+    height: 7.5vh;
+}
+
+nav {
+    opacity: .45;
+}
+
+nav:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+nav h2 {
+    color: #fff;
+    float: left;
+    padding: 15px;
+    margin-left: 150px;
+}
+
+.links {
+    margin-right: 150px;
+    float: right;
+}
+
+.links li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+.links li a {
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.links li:hover {
+    background: #555;
+}
+
+.links li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+    top: 57px;
+    left: -1px;
+    width: 140px;
+    background: #111;
+}
+
+.dropdown li {
+    border: 2px solid #222;
+    display: block;
+    color: #fff;
+}
+
+.dropdown-link:hover .dropdown-2 {
+    display: block;
+}
+
+.dropdown-2 {
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 138px;
+    width: 150px;
+    background: #111;
+}
+
+.temporary {
+    color: white;
+}
+.squaretext {
+    background-color: white;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    opacity: .7;
+    height: 85%;
+    border-radius: 2vw;
+    z-index: -10;
+    
+}
+.sqtext {
+    word-wrap: break-word;
+    width: 15vw;
+    text-align: justify;
+    margin-left: 30vw;
+    z-index: -10;
+}
+.frtext {
+    margin-left: 30vw;
+    margin-top: -5vw;
+}
+img {
+    width: 30vh;
+    margin-left: 47vw;
+    border-radius: 1vw;
+    margin-top: -10vw;
+}
+.sqtext1 {
+    margin-left: 30vw;
+    z-index: -10;
+}
+.sqtext2 {
+    margin-left: 30vw;
+    width: 15vw;
+    text-align: justify;
+    word-wrap: break-word;
+    z-index: -10;
+}
+.sqtext3 {
+    margin-left: 30vw;
+    width: 34vw;
+    text-align: justify;
+    word-wrap: break-word;
+    z-index: -10;
+    margin-top: -10vh;
+
+}
+.img3 {
+    margin-top: 5vh;
+    margin-left: 0vw;
+}
+.sqtext4 {
+    width: 18vw;
+    text-align: justify;
+    word-wrap: break-word;
+    margin-left: 46vw;
+    margin-top: -20vh;
+    z-index: -10;
+}
+.img4 {
+    margin-top:-12vh;
+    margin-left:17vw;
+}
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+ol {
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal; /* Keep using default numbering for IE6/7 */
+  font: 15px 'Merriweather Sans', 'lucida sans', sans-serif;
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  width: 300px;
+  margin: 0 auto;
+  margin-left: 10vw;
+  margin-top: -65.5vh;
+}
+ol ol {
+  margin-left: 2em;
+}
+.rounded-list a {
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  *padding: .4em;
+  margin: .5em 0;
+    background: #ddd;
+  color: #444;
+    text-decoration: none;
+  border-radius: .3em;
+    transition: all .5s ease-out; 
+}
+.rounded-list a:hover{
+  background: #eee;
+}
+
+.rounded-list a:hover:before{
+    transform: rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
+
+.rounded-list a:before{
+  content: counter(li);
+  counter-increment: li;
+  position: absolute; 
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #94b5c2;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+}
+.flower {
+    margin-top: 5vh;
+    margin-left: 13vw;
+    z-index: 10;
+}
+.tree {
+    height: 50vh;
+    width: 30vw;
+    margin-left: 38vw;
+}

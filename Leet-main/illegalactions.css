@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #ebf5fc;
+    background-color: rgba(62, 179, 77, 0.5);
 }
 .container {
     display: flex;
@@ -25,9 +25,9 @@ body {
     width: 320px;
     height: 440px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.05), 
-    inset -5px -5px 5px rgba(255,255,255,0.5),
+    inset -5px -5px 5px rgba(62, 179, 77, 0.5),
      5px 5px 5px rgba(0,0,0,0.05),
-     -5px -5px 5px rgba(255,255,255,0.5);
+     -5px -5px 5px rgba(62, 179, 77, 0.5);
      border-radius: 15px;
      margin: 30px;
 }
@@ -37,7 +37,7 @@ body {
     left: 20x;
     right: 20px;
     bottom: 20px;
-    background: #ebf5fc;
+    background: #28b66f;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     border-radius: 15px;
     display: flex;
@@ -48,7 +48,7 @@ body {
 .container .card:hover .box {
     transform: translateY(-50px);
     box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-    background: linear-gradient(45deg, #b95ce4, #4f29cd);
+    background: linear-gradient(45deg, #1c9b42, #a1cd29);
 }
 .container .card .box .content
 {
@@ -82,7 +82,7 @@ body {
 }
 .container .card:hover .box .content h3,
 .container .card:hover .box .content p {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .container .card .box .content a {
     position: relative;

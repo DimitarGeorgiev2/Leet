@@ -1,6 +1,7 @@
 /*---------FONTS & IMPORTS--------*/
 
 @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:wght@400;500&display=swap');
 
 /*--------------MARGIN & PADDING RESET--------------*/
 
@@ -11,7 +12,7 @@
 }
 
 body {
-    background-image: url(img/img29.jpg);
+    background-image: url(img/img6.jpg);
     background-size: cover;
     width: 100;
     height: 100vh;
@@ -25,7 +26,8 @@ body {
 }
 
 nav {
-    opacity: .45;
+    opacity: .8;
+    font-family: 'Playfair Display', serif;
 }
 
 nav:after {
@@ -37,19 +39,21 @@ nav:after {
 nav h2 {
     color: #fff;
     float: left;
-    padding: -1%;
-    margin-left: 7.8125vw;
+    padding: 15px;
+    font-family: 'Playfair Display', serif;
 }
 
 .links {
     margin-right: 7.8125vw;
     float: right;
+    font-family: 'Playfair Display', serif;
 }
 
 .links li {
     display: inline-block;
     list-style: none;
     position: relative;
+    font-family: 'Playfair Display', serif;
 }
 
 .links li a {
@@ -57,6 +61,8 @@ nav h2 {
     color: #fff;
     padding: 20px;
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
 }
 
 .links li:hover {
@@ -72,7 +78,7 @@ nav h2 {
     display: none;
     top: 5.88vh;
     left: -0.05vw;
-    width: 7.29vw;
+    width: 7.50vw;
     background: #111;
 }
 
@@ -89,9 +95,9 @@ nav h2 {
 .dropdown-2 {
     position: absolute;
     display: none;
-    top: 0px;
-    left: 7.18vw;
-    width: 7.81vw;
+    top: 0vh;
+    left: 7.39vw;
+    width: 7.8vw;
     background: #111;
 }
 
@@ -205,10 +211,9 @@ ol ol {
 .rounded-list a:hover{
   background: #eee;
 }
-
+/*---------LIST ANIMATION--------*/
 .rounded-list a:hover:before{
     transform: rotate(360deg);
-    -webkit-transform:rotate(360deg);
 }
 
 .rounded-list a:before{
@@ -242,7 +247,7 @@ ol ol {
     border-radius: 2vw;
     z-index: -10;
 }
-
+/*---------BOTTOM-RIGHT IMAGE--------*/
 .forestVector{
     margin-left: 2.7vw;
     margin-top: -8vh;

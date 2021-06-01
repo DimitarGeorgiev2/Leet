@@ -1,3 +1,4 @@
+/*---------@IMPORTS & GLOBAL PADDING/MARGIN--------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 * {
     margin: 0;
@@ -12,6 +13,7 @@ body {
     min-height: 100vh;
     background-color: rgba(62, 179, 77, 0.5);
 }
+/*---------THE FOUR CONTAINERS--------*/
 .container {
     display: flex;
     justify-content: center;
@@ -45,6 +47,7 @@ body {
     align-items: center;
     transition: 0.5s;
 }
+/*---------CONTAINER ANIMATIONS--------*/
 .container .card:hover .box {
     transform: translateY(-50px);
     box-shadow: 0 10px 40px rgba(0,0,0,0.2);
@@ -64,6 +67,7 @@ body {
     transition: 0.5s;
     pointer-events: none;
 }
+/*---------CHANGING COLOURS--------*/
 .container .card:hover .box .content h2 {
     color: rgba(0,0,0,0.05)
 }
@@ -97,5 +101,5 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 .container .card:hover .box .content a{
-    background: #ff568f;
+    background: #003f5c;
 }

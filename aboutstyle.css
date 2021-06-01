@@ -1,3 +1,10 @@
+/*---------FONTS & IMPORTS--------*/
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:wght@400;500&display=swap');
+
+/*--------------MARGIN & PADDING RESET--------------*/
+
 * {
     padding: 0px;
     margin: 0px;
@@ -5,19 +12,22 @@
 }
 
 body {
-    overflow-x: auto;
-    background: #e8ebedee;
+    background-color: rgba(6, 88, 17, 0.5);
+    background-size: cover;
+    width: 100;
+    height: 100vh;
 }
+
+/*---------NAVIGATION, MENU & DROPDOWN MENU + EFFECTS--------*/
 
 .wrapper {
     width: 100%;
-    height: 8vh;
+    height: 7.5vh;
 }
 
 nav {
-    background: #006400;
-    opacity: 0.7;
-    font-size: 20px;
+    opacity: .8;
+    font-family: 'Playfair Display', serif;
 }
 
 nav:after {
@@ -30,18 +40,20 @@ nav h2 {
     color: #fff;
     float: left;
     padding: 15px;
-    margin-left: 150px;
+    font-family: 'Playfair Display', serif;
 }
 
 .links {
-    margin-right: 150px;
+    margin-right: 7.8125vw;
     float: right;
+    font-family: 'Playfair Display', serif;
 }
 
 .links li {
     display: inline-block;
     list-style: none;
     position: relative;
+    font-family: 'Playfair Display', serif;
 }
 
 .links li a {
@@ -49,6 +61,8 @@ nav h2 {
     color: #fff;
     padding: 20px;
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
 }
 
 .links li:hover {
@@ -62,10 +76,10 @@ nav h2 {
 .dropdown {
     position: absolute;
     display: none;
-    top: 64px;
-    left: 0px;
-    width: 164px;
-    background: #006400;
+    top: 5.88vh;
+    left: -0.05vw;
+    width: 7.50vw;
+    background: #111;
 }
 
 .dropdown li {
@@ -81,114 +95,8 @@ nav h2 {
 .dropdown-2 {
     position: absolute;
     display: none;
-    top: -3px;
-    left: 163px;
-    width: 170px;
-    background: #006400;
-}
-
-.temporary {
-    color: white;
-}
-
-.text {
-    margin-top: 495px;
-    margin-left: 75px;
-    margin-right: 75px;
-}
-
-.scroll {
-    scrollbar-width: none;
-}
-
-p {
-    font-size: 115%;
-}
-
-p::first-letter {
-    font-size: 180%;
-    color: green;
-}
-
-.line hr {
-    position: absolute;
-    width: 50%;
-    text-align: center;
-    margin-left: 390px;
-    margin-top: 450px;
-    animation-name: ground;
-    animation-fill-mode: forwards;
-    animation-duration: 4s;
-}
-
-.lamp img {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    margin-left: 470px;
-    margin-top: 263px;
-    z-index: 1;
-    animation-name: streetLamp;
-    animation-fill-mode: forwards;
-    animation-duration: 3.5s;
-}
-
-.house img {
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    margin-left: 770px;
-    margin-top: 255px;
-    z-index: 13;
-    animation-name: house;
-    animation-fill-mode: forwards;
-    animation-duration: 3s;
-}
-
-.sun img {
-    position: absolute;
-    width: 130px;
-    height: 130px;
-    margin-left: 480px;
-    margin-top: 200px;
-    z-index: 0;
-    animation-name: sun;
-    animation-fill-mode: forwards;
-    animation-duration: 3s;
-}
-
-@keyframes ground {
-    from {
-        transform: translateY(1000px)
-    }
-    to {
-        transform: translateY(-100px)
-    }
-}
-
-@keyframes streetLamp {
-    from {
-        transform: translateY(1000px)
-    }
-    to {
-        transform: translateY(-99px)
-    }
-}
-
-@keyframes house {
-    from {
-        transform: translateY(1000px)
-    }
-    to {
-        transform: translateY(-100px)
-    }
-}
-
-@keyframes sun {
-    from {
-        transform: translateY(-1000px)
-    }
-    to {
-        transform: translateY(-100px)
-    }
+    top: 0vh;
+    left: 7.39vw;
+    width: 7.8vw;
+    background: #111;
 }

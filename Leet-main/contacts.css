@@ -27,11 +27,11 @@ nav h2 {
     color: #fff;
     float: left;
     padding: 15px;
-    margin-left: 150px;
+    margin-left: 7.81vw;
 }
 
 .links {
-    margin-right: 150px;
+    margin-right: 7.81vw;
     float: right;
 }
 
@@ -111,8 +111,8 @@ body, button, input {
     display: block;
     position: absolute;
     top: 0;
-    left: 20px;
-    right: 20px;
+    left: 1.04vw;
+    right: 1.04vw;
     bottom: 0;
     border-radius: 15px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
@@ -192,9 +192,9 @@ body, button, input {
     display: block;
     position: absolute;
     left: 0;
-    bottom: -10px;
-    width: 25px;
-    height: 4px;
+    bottom: -1.03vh;
+    width: 1.30vw;
+    height: 0.41vh;
     background: #ea1d6f;
   }
   
@@ -205,11 +205,11 @@ body, button, input {
   }
   
   .app-form-group {
-    margin-bottom: 15px;
+    margin-bottom: 1.54vh;
   }
   
   .app-form-group.message {
-    margin-top: 40px;
+    margin-top: 4.12vh;
   }
   
   .app-form-group.buttons {

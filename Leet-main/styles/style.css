@@ -33,6 +33,7 @@ body {
 nav {
     opacity: .8;
     font-family: 'Oswald', sans-serif;
+    font-weight: 800;
 }
 
 nav:after {

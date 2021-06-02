@@ -13,6 +13,7 @@ body {
     background-color: rgba(62,179,77,0.5);
     overflow: hidden;
 }
+/*---------CONTACT FORM--------*/
 .contactform{
     box-sizing: border-box;
     margin-left:-10vw;
@@ -47,11 +48,13 @@ body {
     background-color: #fff;
     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19) ;
 }
+/*---------THE PHOTO--------*/
 .left {
     height: 100%;
     background: url(../img/img30.jpg) no-repeat center;
     background-size: cover;
 }
+/*---------THE FIELDS--------*/
 .right {
     padding: 25px 40px;
 }
@@ -88,6 +91,7 @@ h2:after {
     background-color: #fff;
     border: 2px solid rgba (30,85,250,0.47);
 }
+/*---------BUTTON--------*/
 .btn {
     width: 100%;
     padding: 0.5 rem 1 rem;

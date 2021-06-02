@@ -115,7 +115,7 @@ p {
 
 p::first-letter {
     font-size: 160%;
-    color: lightskyblue;
+    color: rgb(71, 120, 255);
 }
 
 /*---------PARAGRAPHS & CORRESPONDING IMAGES --------*/

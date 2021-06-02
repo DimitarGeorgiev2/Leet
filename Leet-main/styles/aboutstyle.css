@@ -2,13 +2,14 @@
 
 @import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:wght@400;500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 
 /*--------------MARGIN & PADDING RESET--------------*/
 
 * {
     padding: 0px;
     margin: 0px;
-    font-family: arial;
 }
 
 body {
@@ -16,6 +17,87 @@ body {
     background-size: cover;
     width: 100;
     height: 100vh;
+}
+
+/*---------PROFILE CAEDS--------*/
+.photo1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.4em;
+  background-color: #141414;
+}
+.photo1 * {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+/*---------BLUR--------*/
+.photo1 .background {
+  width: 100%;
+  vertical-align: top;
+  opacity: 0.2;
+  filter: grayscale(100%) blur(10px);
+  filter: grayscale(100%) blur(10px);
+  transition: all 2s ease;
+  transition: all 2s ease;
+}
+.photo1 figcaption {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.photo1 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.photo1 h3 {
+  margin: 0 0 5px;
+  font-weight: 400;
+}
+.photo1 h3 span {
+  display: block;
+  font-size: 0.6em;
+  color: #f39c12;
+  opacity: 0.75;
+}
+.photo1 i {
+  padding: 10px 5px;
+  display: inline-block;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+  opacity: 0.65;
+}
+.photo1 a {
+  text-decoration: none;
+}
+.photo1 i:hover {
+  opacity: 1;
+  transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.photo1:hover .background,
+.photo1.hover .background {
+  transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 /*---------NAVIGATION, MENU & DROPDOWN MENU + EFFECTS--------*/
@@ -28,6 +110,7 @@ body {
 nav {
     opacity: .8;
     font-family: 'Playfair Display', serif;
+    font-weight: 800;
 }
 
 nav:after {
@@ -62,7 +145,6 @@ nav h2 {
     padding: 20px;
     text-decoration: none;
     font-family: 'Playfair Display', serif;
-    font-weight: 800;
 }
 
 .links li:hover {
